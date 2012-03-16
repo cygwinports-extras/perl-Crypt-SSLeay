@@ -1,4 +1,4 @@
-CPAN_AUTHOR=dland
+CPAN_AUTHOR=nanis
 inherit perl
 
 src_compile() {
