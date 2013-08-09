@@ -1,5 +1,0 @@
-category: Perl
-requires: libssp0 libopenssl100 perl
-sdesc: "SSL support for Perl LWP::Protocol::https"
-ldesc: "This perl module provides support for the https protocol under 
-LWP, so that a LWP::UserAgent can make https GET & HEAD & POST requests."

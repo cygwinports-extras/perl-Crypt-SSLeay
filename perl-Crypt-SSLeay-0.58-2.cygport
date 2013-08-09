@@ -1,9 +1,0 @@
-CPAN_AUTHOR=nanis
-inherit perl
-
-src_compile() {
-	lndirs
-	cd ${B}
-	# accept default answers for the two questions
-	echo -e '\n\n' | perl_compile
-}
