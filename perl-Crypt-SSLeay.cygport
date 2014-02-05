@@ -9,6 +9,8 @@ SUMMARY="SSL support for Perl LWP::Protocol::https"
 DESCRIPTION="This perl module provides support for the HTTPS protocol under
 LWP, so that a LWP::UserAgent can make GET/POST/HEAD requests over HTTPS."
 
+REQUIRES="ca-certificates"
+
 src_compile() {
 	lndirs
 	cd ${B}
