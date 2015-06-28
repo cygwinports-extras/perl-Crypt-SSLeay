@@ -2,7 +2,7 @@ CPAN_AUTHOR=nanis
 inherit perl
 
 NAME="perl-Crypt-SSLeay"
-VERSION=0.64
+VERSION=0.72
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="SSL support for Perl LWP::Protocol::https"
